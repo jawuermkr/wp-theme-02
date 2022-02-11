@@ -33,7 +33,8 @@ body {
   text-decoration: none;
   margin-left: 20px;
 }
-ul {
+ul,
+li {
   list-style: none;
 }
 a {
@@ -68,6 +69,13 @@ a:hover {
 .unua img {
   width: 80%;
 }
+/* COMENTARIOS */
+
+textarea,
+input {
+  width: 100% !important;
+}
+
 footer {
   background-color: rgb(26, 26, 26);
   color: rgb(224, 224, 224);
