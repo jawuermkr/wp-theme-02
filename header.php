@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<head>
-		<title><?php bloginfo('name') - bloginfo('description'); ?></title>
+		<title><?php bloginfo('name'); ?> - <?php bloginfo('description'); ?></title>
 		<meta charset="<?php bloginfo();?>">
 		<meta name="viewport" content="width=device-width, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -10,32 +10,41 @@
     </head>
 <body <?php body_class(); ?> style="background-image:url('<?php header_image(); ?>');">
 
-<!-- Load Facebook SDK for JavaScript -->
+<!-- ############################# -->
+<!-- Messenger Plugin de chat Code -->
+<!-- ############################# -->
 <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v7.0'
-          });
-        };
 
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
+<!-- Your Plugin de chat code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
 
-      <!-- Your Chat Plugin code -->
-      <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="102723594476418"
-  theme_color="#a2a2a2"
-  logged_in_greeting="Te damos la bienvenida. ¿Cómo podemos ayudarte?"
-  logged_out_greeting="Te damos la bienvenida. ¿Cómo podemos ayudarte?">
-      </div>
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "1614411658877980");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v13.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- ############################# -->
+<!-- Messenger Plugin de chat Code -->
+<!-- ############################# -->
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a>
