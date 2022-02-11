@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<head>
-		<title><?php bloginfo('name'); ?> - Líderes en Importación y Calidad </title>
+		<title><?php bloginfo('name') - bloginfo('description'); ?></title>
 		<meta charset="<?php bloginfo();?>">
 		<meta name="viewport" content="width=device-width, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="style.css">
