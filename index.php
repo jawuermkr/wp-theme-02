@@ -9,15 +9,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <center><img class="ico" src="<?php echo get_theme_mod('image-a', get_template_directory_uri('template_directory').'/img/01.jpg'); ?>"/>
+                    <center><img class="ico" src="<?php echo get_theme_mod('image-a', get_template_directory_uri('template_directory').'/img/01.png'); ?>"/>
                     <p><?php echo get_theme_mod('text-a', 'Lorem ipsum'); ?></p></center>
                 </div>
                 <div class="col-md-4">
-                    <center><img class="ico" src="<?php echo get_theme_mod('image-b', get_template_directory_uri('template_directory').'/img/02.jpg'); ?>"/>
+                    <center><img class="ico" src="<?php echo get_theme_mod('image-b', get_template_directory_uri('template_directory').'/img/02.png'); ?>"/>
                         <p><?php echo get_theme_mod('text-b', 'Lorem ipsum'); ?></p></center>
                 </div>
                 <div class="col-md-4">
-                    <center><img class="ico" src="<?php echo get_theme_mod('image-c', get_template_directory_uri('template_directory').'/img/03.jpg'); ?>"/>
+                    <center><img class="ico" src="<?php echo get_theme_mod('image-c', get_template_directory_uri('template_directory').'/img/03.png'); ?>"/>
                         <p><?php echo get_theme_mod('text-c', 'Lorem ipsum'); ?></p></center>
                 </div>
                 <div class="col-md-12"><hr></div>
@@ -26,11 +26,11 @@
                     <p><?php echo get_theme_mod('image-text', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'); ?></p>
                 </div>
                 <div class="col-md-6 unua wow slideInRight">
-                    <img src="<?php echo get_theme_mod('image-unu', get_template_directory_uri('template_directory').'/img/popu.jpg'); ?>">
+                    <img src="<?php echo get_theme_mod('image-unu', get_template_directory_uri('template_directory').'/img/mes1.png'); ?>">
                 </div>
                 <div class="col-md-12"><br/></div>
                 <div class="col-md-6 unua wow slideInLeft">
-                    <img src="<?php echo get_theme_mod('image-du', get_template_directory_uri('template_directory').'/img/rec.jpg'); ?>">
+                    <img src="<?php echo get_theme_mod('image-du', get_template_directory_uri('template_directory').'/img/mes2.png'); ?>">
                 </div>
                 <div class="col-md-6">
                 <h2><?php echo get_theme_mod('image-title-du', 'Lorem ipsum'); ?></h2>

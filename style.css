@@ -3,7 +3,7 @@ Theme Name: Imperium
 Theme URI: http://verdaluno.com
 Author: Jawuer Morales
 Author URI: https://github.com/jawuermkr
-Description: Página desarrollada especialmente para la perfumería imperium con estructura "bootstrap" y animaciones gracias a "animate.css" y a "wow.js" Esta es la primera versión y se encuentra en un 90% de funcionabilidad en cuanto al rendimiento SEO. Es especial para mostrar servicios, productos y mucho más en su página principal y su blog es un gran apoyo para complementar la finalidad de la página. 
+Description: Página desarrollada con estructura "bootstrap" y animaciones gracias a "animate.css" y a "wow.js" Esta es la primera versión y se encuentra en un 90% de funcionabilidad en cuanto al rendimiento SEO. Es especial para mostrar servicios, productos y mucho más en su página principal y su blog es un gran apoyo para complementar la finalidad de la página. 
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -15,70 +15,70 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 @font-face {
-    font-family: "Pathway";
-    src: url("fonts/PathwayGothicOne-Regular.ttf");
-  }
+  font-family: "Pathway";
+  src: url("fonts/PathwayGothicOne-Regular.ttf");
+}
 * {
-    margin: auto;
-    padding: 0px;
+  margin: auto;
+  padding: 0px;
 }
 body {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .menu li {
-    float:left;
-    list-style:none;
-    text-decoration:none;
-    margin-left:20px;
+  float: left;
+  list-style: none;
+  text-decoration: none;
+  margin-left: 20px;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 a {
-    color:rgb(61, 61, 61);
-    text-decoration: none;
+  color: rgb(61, 61, 61);
+  text-decoration: none;
 }
 a:hover {
-    color:rgb(95, 95, 95);
-    text-decoration: none;
+  color: rgb(95, 95, 95);
+  text-decoration: none;
 }
 .col-md-4 {
-    margin-top: 0;
+  margin-top: 0;
 }
 .color-b {
-    padding:2%;
-    background-color: #fff;
+  padding: 2%;
+  background-color: #fff;
 }
 .kapo {
-    color: #fff;
-    font-family: "Pathway";
-    text-align: center;
-    margin: 10% 0% 10% 0%;
+  color: #fff;
+  font-family: "Pathway";
+  text-align: center;
+  margin: 10% 0% 10% 0%;
 }
 .kapo img {
-    width:150px;
-    border-radius: 50%;
+  width: 150px;
+  border-radius: 50%;
 }
-.ico{
-    width:250px;
-    border-radius: 30%;
+.ico {
+  width: 250px;
+  border-radius: 30%;
 }
-.unua img{
-    width:80%;
+.unua img {
+  width: 80%;
 }
 footer {
-    background-color: rgb(26, 26, 26);
-    color:rgb(224, 224, 224);
-    padding: 4% 0% 4% 0%;
+  background-color: rgb(26, 26, 26);
+  color: rgb(224, 224, 224);
+  padding: 4% 0% 4% 0%;
 }
-.alignright{
-    align-content:right;
+.alignright {
+  align-content: right;
 }
-.alignleft{
-    align-content:left;
+.alignleft {
+  align-content: left;
 }
-.aligncenter{
-    align-content:center;
+.aligncenter {
+  align-content: center;
 }

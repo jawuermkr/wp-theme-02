@@ -8,15 +8,22 @@
                 <a href="https://api.whatsapp.com/send?phone=+573142850487&text=Hola,%20vi%20tu%20página%20web." target="_blank">WHATSAPP</a></p>
             </div>
             <div class="col-md-3">
-                <h3>ENTREGAS</h3>
-                <p>Realizamos entregas en toda la ciudad y sus alrededores. Pronto confirmaremos los envíos nacionales</p>
+                <h3>SERVICIOS</h3>
+                <ul>
+					<li>Desarrollo.</li>
+					<li>Diseño gráfico.</li>
+					<li>Marketing digitál.</li>
+					<li>Producción multimedia.</li>
+					<li>Impresión 3D</li>
+					<li></li>
+				</ul>
             </div>
             <div class="col-md-3">
-                <h3>PAGOS</h3>
-                <p>Manejamos diferentes formas de pago e incluso aceptamos pago contra entrega ofreciendo siempre seguridad y calidad.</p>
+                <h3>SEDES</h3>
+                <p>Servicios físicos en la ciudad de Bogotá, Colombia. Servicios digitales para todo el mundo.</p>
             </div>
             <div class="col-md-3">
-                <p>&copy <?php echo date('Y'); ?> | <?php bloginfo('name'); ?><br/>
+                <p>&copy 2014 - <?php echo date('Y'); ?> | <?php bloginfo('name'); ?><br/>
                 info@verdaluno.com <br/>
                 WhatsApp 3142850487 <br/>
                 <small><a href="http://verdaluno.com"><p>Diseño y Desarrollo <b>Verda Luno</b></p></a></small></p>
